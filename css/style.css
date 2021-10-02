@@ -2,7 +2,7 @@
     #EB586F - Footer
     #D8E9F0 - Background
     #4AA0D5 - Header
-    #454553 - Menu
+    #454553 - Menu / Spacing
 */
 
 body {
@@ -10,9 +10,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-hr {
-  border-style: dotted none none;
-  border-color: #454553;
-  border-width: 5px;
-  width: 5%;
+/* prettier-ignore */
+#education, #experience, #skills {
+  border-top: 1px solid #454553;
+}
+
+#info a {
+  text-decoration: none;
+  color: #4aa0d5;
+}
+
+#info a:hover {
+  color: #eb586f;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4aa0d5;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu a {
+  display: block;
+  color: #d8e9f0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  background-color: #eb586f;
 }
