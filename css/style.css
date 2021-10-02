@@ -1,0 +1,18 @@
+/* Color Pallet
+    #EB586F - Footer
+    #D8E9F0 - Background
+    #4AA0D5 - Header
+    #454553 - Menu
+*/
+
+body {
+  background-color: #d8e9f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #454553;
+  border-width: 5px;
+  width: 5%;
+}
